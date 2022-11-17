@@ -2,6 +2,8 @@
 
 [Link to my project](https://github.com/uiido/seo-refactor)
 
+[Link to my project page](https://uiido.github.io/seo-refactor/)
+
 ## Table of Contents
 - [Description](#description)
 - [Visuals](#visuals)
