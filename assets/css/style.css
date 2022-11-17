@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Changed .header to header */
+/* Changed .header to header for semantic value */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,18 +16,18 @@ header {
     color: #ffffff;
 }
 
-/* Changed .header h1 to header h1*/
+/* Changed .header h1 to header h1 for semantic value*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Changed .header h1 .seo to header h1 .seo */
+/* Changed .header h1 .seo to header h1 .seo for semantic value */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Changed .header div to nav*/
+/* Changed .header div to nav for semantic value*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,12 +36,12 @@ nav {
     font-size: 20px;
 }
 
-/* Changed .header div ul to nav ul*/
+/* Changed .header div ul to nav ul for semantic value*/
 nav ul {
     list-style-type: none;
 }
 
-/* Changed .header div ul li to nav ul li*/
+/* Changed .header div ul li to nav ul li for semantic value */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +50,11 @@ nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/* Added a:hover to make links responsive to mouse hover */
+a:hover {
+    text-decoration: underline;
 }
 
 p {
@@ -75,14 +80,14 @@ p {
     margin-left: 25px;
 }
 
-/* Changed .content to main */
+/* Changed .content to main for semantic value */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Changed .benefits to aside */
+/* Changed .benefits to aside for semantic value */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -94,55 +99,27 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Condensed benefit-lead, benefit-brand, and benefit-cost to benefit for consistancy */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Condensed benefit-lead, benefit brand, and benefit-cost h3 to benefit for consistancy */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Condensed benefit-lead, benefit brand, and benefit-cost img to benefit for consistancy */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Condensed search-engine, online-rep, and social-media to services for consistancy */
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -151,52 +128,18 @@ aside {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Condensed search-engine, online-rep, and social-media img to services for consistancy */
+.services img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Condensed search-engine, online-rep, and social-media h2 to services for consistancy */
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Changed .footer to footer*/
+/* Changed .footer to footer for semantic value */
 footer {
     padding: 30px;
     clear: both;
