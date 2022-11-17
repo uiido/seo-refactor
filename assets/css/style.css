@@ -16,14 +16,14 @@ header {
     color: #ffffff;
 }
 
-/* Changed .header h1 to header h1 for semantic value*/
-header h1 {
+/* Changed .header h1 to h1 for semantic value and clarity */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Changed .header h1 .seo to header h1 .seo for semantic value */
-header h1 .seo {
+/* Changed .header h1 .seo to h1 .seo for semantic value and clarity */
+h1 .seo {
     color: #d9dcd6;
 }
 
@@ -99,26 +99,26 @@ aside {
     background-color: #2589bd;
 }
 
-/* Condensed benefit-lead, benefit-brand, and benefit-cost to benefit for consistancy */
+/* Condensed benefit-lead, benefit-brand, and benefit-cost to benefit for clarity (all shared same values)*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Condensed benefit-lead, benefit brand, and benefit-cost h3 to benefit for consistancy */
-.benefit h3 {
+/* Condensed benefit-lead, benefit brand, and benefit-cost h3 to h3 for semantics and clarity (all shared same values; ignores benefit, only h3 on page) */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Condensed benefit-lead, benefit brand, and benefit-cost img to benefit for consistancy */
+/* Condensed benefit-lead, benefit brand, and benefit-cost img to benefit for clarity (all shared same values)*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Condensed search-engine, online-rep, and social-media to services for consistancy */
+/* Condensed search-engine, online-rep, and social-media to services for clarity (all shared same values) */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,12 +128,12 @@ aside {
     color: #ffffff;
 }
 
-/* Condensed search-engine, online-rep, and social-media img to services for consistancy */
+/* Condensed search-engine, online-rep, and social-media img to services for clarity (all shared same values) */
 .services img {
     max-height: 200px;
 }
 
-/* Condensed search-engine, online-rep, and social-media h2 to services for consistancy */
+/* Condensed search-engine, online-rep, and social-media h2 to h2 for semantics and clarity (alls ahred same values; avoids footer h2) */
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -147,6 +147,7 @@ footer {
     text-align: center;
 }
 
+/* Changed .footer h2 to footer h2 for semantics and clarity (avoids .services h2) */
 footer h2 {
     font-size: 20px;
 }
